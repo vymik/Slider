@@ -1,0 +1,33 @@
+@import 'reset';
+
+section{
+    width: 100vw;
+    padding-top: 5%;
+    #slider{
+        position: relative;
+        width: 70%;
+        height: 600px;
+        margin: 0 auto;
+        background-image: url("https://pbs.twimg.com/media/DMDIKcyWsAEsKDj.jpg");
+        background-size: cover;
+        box-shadow: 10px 10px 30px 5px gray;
+        i{
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%);
+            color: white;
+            font-size: 3rem;
+            cursor: pointer;
+            &:hover{
+                color: #F92672;
+            }
+            // z-index: 3;
+        }
+        #left-angle{
+            left: 4%;
+        }
+        #right-angle{
+            right: 4%;
+        }
+    }
+}

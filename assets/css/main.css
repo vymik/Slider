@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  margin: 0 auto;
+}
+
+section {
+  width: 100vw;
+  padding-top: 5%;
+}
+
+section #slider {
+  position: relative;
+  width: 70%;
+  height: 600px;
+  margin: 0 auto;
+  background-image: url("https://pbs.twimg.com/media/DMDIKcyWsAEsKDj.jpg");
+  background-size: cover;
+  -webkit-box-shadow: 10px 10px 30px 5px gray;
+          box-shadow: 10px 10px 30px 5px gray;
+}
+
+section #slider i {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  color: white;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+section #slider i:hover {
+  color: #F92672;
+}
+
+section #slider #left-angle {
+  left: 4%;
+}
+
+section #slider #right-angle {
+  right: 4%;
+}
+/*# sourceMappingURL=main.css.map */
