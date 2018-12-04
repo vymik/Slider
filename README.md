@@ -1,0 +1,2 @@
+# Slider
+CodeBakers task: slider
